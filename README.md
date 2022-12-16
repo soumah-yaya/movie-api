@@ -1,7 +1,5 @@
-===========================================================================
-                                MOVIE -REST API
-===========================================================================
 
+*MOVIE -REST API
 
 Most of your work will be implementing methods in the **dao** directory, which
 contains all database interfacing methods. The API will make calls to Data

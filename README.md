@@ -25,6 +25,16 @@ path: '/user/delete'
 ### update user preferences a User
 path: '/user/update-preferences'
 
+## Movie
 
+### get all movies 
+path:'/movies'
 
+### search movie
+path:'/movies/search'
 
+### get movie by country
+path:'/movies/countries?country=usa'
+
+### get movie by id
+path:'movies/id/573a139af29313caabcf0d74'

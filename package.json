@@ -1,0 +1,70 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "REST API for movie app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumah-yaya/movie-api.git"
+  },
+  "keywords": [
+    "[server",
+    "movie",
+    "api]"
+  ],
+  "author": "yaya soumah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soumah-yaya/movie-api/issues"
+  },
+  "homepage": "https://github.com/soumah-yaya/movie-api#readme",
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.20.1",
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.29.0",
+    "express": "^4.18.2",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.2.0",
+    "mongodb": "^4.12.1",
+    "morgan": "^1.10.0",
+    "prettier": "^2.8.1",
+    "sinon": "^15.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.5",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-decorators": "^7.20.5",
+    "@babel/plugin-proposal-do-expressions": "^7.18.6",
+    "@babel/plugin-proposal-export-default-from": "^7.18.10",
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@babel/plugin-proposal-function-sent": "^7.18.6",
+    "@babel/plugin-proposal-json-strings": "^7.18.6",
+    "@babel/plugin-proposal-logical-assignment-operators": "^7.18.9",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.18.9",
+    "@babel/plugin-proposal-pipeline-operator": "^7.18.9",
+    "@babel/plugin-proposal-throw-expressions": "^7.18.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-syntax-import-meta": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.19.6",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@babel/runtime": "^7.20.6",
+    "babel-core": "^6.26.3",
+    "colors": "^1.4.0",
+    "husky": "^8.0.2",
+    "nodemon": "^2.0.20"
+  }
+}

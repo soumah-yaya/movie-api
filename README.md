@@ -1,16 +1,29 @@
 
-*MOVIE -REST API
+# MOVIE -REST API
 
-Most of your work will be implementing methods in the **dao** directory, which
-contains all database interfacing methods. The API will make calls to Data
-Access Objects (DAOs) that interact directly with MongoDB.
-
-**running the server
+## running the server
 npm start
 
-** base url
-http://127.0.0.1:5000/api/v1/private/
+## base url
+http://127.0.0.1:8080/api/v1/private/
 
+## Users
+
+### getUser
+### Register a new user
+path: '/user/register'
+
+### login user
+path: '/user/login'
+
+### logout User
+path: '/user/logout'
+
+### delete a User
+path: '/user/delete'
+
+### update user preferences a User
+path: '/user/update-preferences'
 
 
 

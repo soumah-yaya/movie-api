@@ -1,6 +1,7 @@
 import app from "./server"
 import { MongoClient } from "mongodb"
 import color from "colors"
+import UsersDAO from './model/usersModel'
 
 
 const port = process.env.PORT || 8080
@@ -20,9 +21,9 @@ MongoClient.connect(
         console.error(err.stack)
         process.exit(1)
     })
-    .then(() => {
-        
+    .then(async client => {
+        await UsersDAO.injectDB(client)
         app.listen(port, () => {
-            console.log(`server running at: http://127.0.0.1: ${port}/api/v1/private/`.underline.cyan)
+            console.log(`server running at: http://127.0.0.1:${port}/api/v1/private/`.underline.cyan)
         })
     })

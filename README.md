@@ -22,7 +22,7 @@ path: '/user/logout'
 ### delete a User
 path: '/user/delete'
 
-### update user preferences a User
+### update user preferences
 path: '/user/update-preferences'
 
 ## Movie
@@ -38,3 +38,8 @@ path:'/movies/countries?country=usa'
 
 ### get movie by id
 path:'movies/id/573a139af29313caabcf0d74'
+
+## Comment
+
+### post, update, delete  comment
+path: '/movies/comment'

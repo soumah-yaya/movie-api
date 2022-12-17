@@ -76,8 +76,8 @@ export default class MoviesController {
                 }
                 break
             
-            default:
-            // nothing to do
+            default: break
+           
         }
 
         const { moviesList, totalNumMovies } = await MoviesDAO.getMovies({
